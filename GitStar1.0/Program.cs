@@ -10,6 +10,11 @@ namespace GitStar1._0
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Pow(2, 3)); 
+        }
+        static double Pow(double baseNum, int exponent)
+        {
+            return Math.Pow(baseNum, exponent);
         }
     }
 }
